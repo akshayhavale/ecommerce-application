@@ -16,5 +16,6 @@ public class OrderDto implements Serializable {
 	private List<OrderProductDto> orderedProducts;
 	private Double total;
 	private CustomerDto customer;
+	private OrderShippingDetails orderShippingDetails;
 
 }
